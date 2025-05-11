@@ -1,5 +1,5 @@
 # boltzmann_app
-- 👋 A simple program that calculates population distribution using the Boltzmann Distribution. 
+- 👋 A simple program that calculates population distribution using the Boltzmann Distribution equation. 
 - 💾 This is the 1.0 version.
 - ❓ Useful for calculating distributions between species A and B or the total free energy between these two species. 
 - ❗ Your data needs to be in kJ/mol.K unit. 
