@@ -6,7 +6,7 @@
 #Importing modules to run the aplication:
 import math
 
-print("Bem-vindo ao Boltzmann v1.0" )
+print("Bem-vindo ao Boltzmann v1.0, por Eduardo Alves Rodrigues")
 
 #Setting the Boltzmann Constant:
 R = 0.008314
@@ -23,11 +23,3 @@ razao = math.exp(-delta_E / (R*valor3))
 
 #Printing the result:
 print("A razão entre os valores adicionados foi de",razao)
-
-#Some comments/improvements to do:
-#1)To improve this script, the next step is to generalize it even more, for example:
-
-#a)Add a conversion units tool (using different values of R???)
-
-#b)This script has been conceived to calculate the distribution between two species only (i.e., A to B or the total free energy from products and the total free energy from reactants). Would be better to include a code that sums up the free energies from each component of products 
-#and reactants through some conditions, asking "Do you need to sum the free energies from each component of the products and reactants?", for example.
